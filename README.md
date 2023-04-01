@@ -1,3 +1,10 @@
+# About
+
+- The project's code can be found inside the [minesweeper](https://github.com/ValantisAndreas/Minesweeper/tree/main/src/minesweeper) folder.
+- Round Stats are stored inside the [recentgames](https://github.com/ValantisAndreas/Minesweeper/tree/main/src/recentgames) folder.
+- Game Scenarios created by the player are stored inside the [medialab](https://github.com/ValantisAndreas/Minesweeper/tree/main/src/medialab) folder.
+- Inside the [mines](https://github.com/ValantisAndreas/Minesweeper/tree/main/src/mines) folder a `mines.txt` is created everytime a new game is started and contains the row and column where each mine is located, as well as a third value that signals whether the mine is a super-mine or not.
+
 # Game Rules
 
 The game follows the same rules as the classic Minesweeper game with a few additions:
