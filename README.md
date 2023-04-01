@@ -1,18 +1,21 @@
-## Getting Started
+# Game Rules
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The game follows the same rules as the classic Minesweeper game with a few additions:
 
-## Folder Structure
+* The player first needs to Load a game ether from the pre-existing ones in the `Load` menu or create a new game scenario from the `Create` menu. When the game scenario is loaded press `Start` to beigin the game.
+* The player can create their own gamplay scenarios which are then saved locally and can be loaded again and again without recreating them.
+* Round stats are saved at the end of each and can be viewd at a later time.
+* When the difficulty is set to `2` a `super-mine` is also initialized. If the player marks the square corresponding to the super-mine within the first 4 attempts (left-clicks) then automatically all the squares that are in the same row and column as the super-mine (31 total squares) are revealed.
+* When the countdown reaches zero the game is over and the player is lost.
+* FRom the `Solution` menu the current game's solution can be found, but the game will end and be marked as a loss for the player.
 
-The workspace contains two folders by default, where:
+# Game description details
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+| Difficulty Levels | Grid Size | Number of Mines | Timer (seconds)| Super-Mine |
+| ------------------| ----------| --------------- |----------------|------------|
+| 1                 | 9x9       | 9-11            | 120-180        | No         |
+| 2                 | 16x16     | 35-45           | 240-360        | Yes        |
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+# Screenshots
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<img width="643" alt="Screenshot 2023-04-01 at 4 47 42 PM" src="https://user-images.githubusercontent.com/94286214/229292953-e08bd09b-4e36-41fd-a576-08e73a20392f.png"> <img width="363" alt="Screenshot 2023-04-01 at 4 44 20 PM" src="https://user-images.githubusercontent.com/94286214/229292936-e1137b32-f969-434e-be0b-ba9b947b7fea.png"> 
