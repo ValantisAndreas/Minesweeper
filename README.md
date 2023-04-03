@@ -14,7 +14,7 @@ The game follows the same rules as the classic Minesweeper game with a few addit
 * Round stats are saved at the end of each and can be viewd at a later time.
 * When the difficulty is set to `2` a `super-mine` is also initialized. If the player marks the square corresponding to the super-mine within the first 4 attempts (left-clicks) then automatically all the squares that are in the same row and column as the super-mine (31 total squares) are revealed.
 * When the countdown reaches zero the game is over and the player is lost.
-* FRom the `Solution` menu the current game's solution can be found, but the game will end and be marked as a loss for the player.
+* From the `Solution` menu the current game's solution can be found, but the game will end and be marked as a loss for the player.
 
 # Game description details
 
