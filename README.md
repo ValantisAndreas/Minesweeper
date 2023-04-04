@@ -20,8 +20,8 @@ The game follows the same rules as the classic Minesweeper game with a few addit
 
 | Difficulty Levels | Grid Size | Number of Mines | Timer (seconds)| Super-Mine |
 | ------------------| ----------| --------------- |----------------|------------|
-| 1                 | 9x9       | 9-11            | 120-180        | No         |
-| 2                 | 16x16     | 35-45           | 240-360        | Yes        |
+| 1                 | 9x9       | 9-11            | 120-180        | Not Allowed|
+| 2                 | 16x16     | 35-45           | 240-360        | Allowed    |
 
 # Screenshots
 
