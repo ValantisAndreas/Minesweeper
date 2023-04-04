@@ -9,7 +9,7 @@
 
 The game follows the same rules as the classic Minesweeper game with a few additions:
 
-* The player first needs to Load a game ether from the pre-existing ones in the `Load` menu or create a new game scenario from the `Create` menu. When the game scenario is loaded press `Start` to beigin the game.
+* The player first needs to Load a game ether from the pre-existing ones in the `Load` menu or create a new game scenario from the `Create` menu. When the game scenario is loaded press `Start` to begin the game.
 * The player can create their own gamplay scenarios which are then saved locally and can be loaded again and again without recreating them.
 * Round stats are saved at the end of each and can be viewd at a later time.
 * When the difficulty is set to `2` a `super-mine` is also initialized. If the player marks the square corresponding to the super-mine within the first 4 attempts (left-clicks) then automatically all the squares that are in the same row and column as the super-mine (31 total squares) are revealed.
